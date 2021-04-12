@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "487227455457",
+    "firebase_url": "https://android-mobility-878d2.firebaseio.com",
+    "project_id": "android-mobility-878d2",
+    "storage_bucket": "android-mobility-878d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487227455457:android:2da637b0ebee29eeb944a0",
+        "android_client_info": {
+          "package_name": "com.example.mobilityguardhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487227455457-uf65ocmvg331sf8vg1mnfcnteoeunsf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxXkzBFVDmaZZr-5XWAqrz9y-yast4l6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487227455457-uf65ocmvg331sf8vg1mnfcnteoeunsf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487227455457:android:199a9056cd1c3625b944a0",
+        "android_client_info": {
+          "package_name": "org.techtown.led"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487227455457-uf65ocmvg331sf8vg1mnfcnteoeunsf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxXkzBFVDmaZZr-5XWAqrz9y-yast4l6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487227455457-uf65ocmvg331sf8vg1mnfcnteoeunsf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation = "vertical"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:background="@drawable/round_shape1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="날짜를 입력하세요." />
+
+            <Button
+                android:id="@+id/button_date"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#DE8891"
+                android:text="검색하기" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_shape1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/round_shape2"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/diary_img1"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="7dp"
+                    android:src ="@drawable/pic1"/>
+                    <TextView
+                        android:id="@+id/id_date1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2020-11-23 05:48:32"
+                        android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/round_shape2"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/diary_img2"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="7dp"
+                    android:src ="@drawable/pic2"/>
+                <TextView
+                    android:id="@+id/id_date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020-11-23 08:45:21"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/round_shape2"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/diary_img3"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="7dp"
+                    android:src ="@drawable/pic3"/>
+                <TextView
+                    android:id="@+id/id_date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020-11-23 10:55:22"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/round_shape2"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/diary_img4"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="7dp"
+                    android:src ="@drawable/pic4"/>
+                <TextView
+                    android:id="@+id/id_date4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020-11-23 11:30:54"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>

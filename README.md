@@ -1,5 +1,4 @@
-## 1인 가구를 위한 침입 감지 및 공기 질 측정 IoT 서비스
-
+### 1인 가구를 위한 침입 감지 및 공기 질 측정 IoT 서비스
 
 ![homekeeper](https://github.com/bnminji/HomeKeeper-Iot-Grad/blob/fb48ed1573592f2067cb81cca780595700e18ea2/img/homekeeper.PNG)
 - **진행 기간** : 2020.03 ~ 2020.11
